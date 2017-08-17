@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <header class="main-header">
+      <nav class="main-navigation">
+        <a class="main-header-logo">
+          <img src="img/index-logo.svg" width="111" height="24" href="index.html" alt="Логотип магазина света">
+        </a>
+        <ul class="site-navigation">
+          <li><a href="info.html">Информация</a></li>
+          <li><a href="news.html">Новости</a></li>
+          <li><a href="price.html">Прайс-лист</a></li>
+          <li class="site-navigation-current"><a href="catalog.html">Магазин</a></li>
+          <li><a href="contacts.html">Контакты</a></li>
+        </ul>
+        <ul class="user-navigation">
+          <li class="login-link">Вход</li>
+        </ul>
+      </nav>
+    </header>
+	<main class="container">
+		<h1 class="page-title">Люстры</h1>
+		<ul class="breadcrumbs">
+			<li><a href="index.html">Главная</a></li>
+			<li><a href="catalog.html">Магазин</a></li>
+			<li class="breadcrumbs-current">Люстры</li>
+		</ul>
+		<section class="filters">
+			<h2 class="visually-hidden">Фильтр товаров</h2>
+			<form class="filter" method="get" action="https://echo.htmlacademy.ru">
+				
+		
+		</fieldset>
+			<fieldset>
+			<legend>Группы товаров:</legend>
+			<ul>
+			<li class="filter-option"><input class="visually-hidden filter-input filter-input-checkbox" type="radio" name="product-group" value="lamps">
+				Лампы
+			</li>
+			<li class="filter-option"><input class="visually-hidden filter-input filter-input-checkbox" type="radio" name="product-group" value="floor-lamp" checked>
+				Торшеры
+			</li>
+			<li class="filter-option"><input class="visually-hidden filter-input filter-input-checkbox" type="radio" name="product-group" value="pendant-lamp">
+				Люстры
+			</li>
+			</fieldset>
+			<button type="submit" class="filter-button button">Показать</button>
+			</form>
+		</section>
+		<section class="catalog">
+			<h2 class="visually-hidden">Список люстр</h2>
+			<ul class="catalog-list">
+				<li class="catalog-item">
+					<h3>
+						<a href="catalog-item.html">
+							<span class="catalog-category"> Люстра "Паук"</span>
+			</a>
+		</h3>
+		<p class="catalog-item-image">
+			<a href="catalog-item.html">
+				<img src="img/product-1.jpg" width="220" height="165" alt="Люстра Паук">
+			</a>
+		</p>
+		<b>5500 P</b>
+		<a class="button" href="#">Купить</a>
+	</li>
+</ul>
+				<ul class="pagination-list">
+					<li class="pagination-item"><a href="#">1</a></li>
+					<li class="pagination-item pagination-item-current"><a>2</a></li>
+					<li class="pagination-item"><a href="#">3</a></li>
+					<li class="pagination-item"><a href="#">4</li>	
+   </section>
+   <footer class="main-footer">
+   	<p class="footer-contacts">
+		Магазин света<br>
+		Адрес: г.Одинцово, ул.Можайское шоссе д.32<br>
+		<a href="map.html">Как нас найти</a><br>
+		Телефон:+7(925)5674532
+   	</p>
+   	<div class="footer-social">
+   		<b>Давайте дружить</b>
+   		<ul>
+   			<li><a class="social-button" href="#">Вконтакте</a></li>
+   			<li><a class="social-button" href="#">Фейсбук/a></li>
+   			<li><a class="social-button" href="#">Инстаграм</a></li>
+   		</ul>
+   	</div>
+   	<p class="footer-copyright">
+   		<b>Разработано</b>
+   		<a class="button" href="https://htmlacademy.ru">HTML Academy</a>
+   		<p>
+   		</footer>
+		
+   		<section class="modal modal-login">
+   			<h2>Личный кабинет</h2>
+   			<p>Введите свой логин и пароль</p>
+   			<form class="login-form" action="https://echo.htmlacademy.ru" method="post">
+   				<p>
+   			<input class="login-icon-password" type="password" name="password" placeholder="Пароль">
+   		</p>
+   		<p class="login-password-info">
+   			<input type="checkbox" name="remember" class="visually-hidden">
+   			Запомните меня
+   			<a class="restore" href="#">Я забыл пароль!</a>
+   		</p>
+   		<button class="button" type="submit">Войти</button>
+   	</form>
+   	<span class="modal-close">x</span>
+   </section>
+     </body>
+</html>

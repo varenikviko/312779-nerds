@@ -2,11 +2,122 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>HTML Academy: Нёрдс</title>
+    <title>Магазин света</title>
   </head>
   <body>
-
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Базовый HTML и CSS</a>».</p>
-
-  </body>
+<header class="main-header">
+	<nav class="main-navigation">
+		<a class="main-header-logo">
+			<img src="img/index-logo.svg" width="368" height="153" alt="Логотип магазина света"">
+		</a>
+		<ul class="site-navigation">
+			
+			<li><a href="info.html">Информация</a></li>
+			<li><a href="news.html">Новости</a></li>
+			<li><a href="price.html">Прайс-лист</a></li>
+			<li><a href="catalog.html">Магазин</a></li>
+			<li><a href="contacts.html">Контакты</a><li>
+			</ul>
+			<ul class="user-navigation">
+				<li class="login-link">Вход</li>
+			</ul>
+		</nav>
+	</header>
+	<main class="container">
+		<h1 class="visually-hidden">Магазин света</h1>
+		<section class="features">
+		<h2 class="visually-hidden">Преимущества</h2>
+		<ul class="features-list">
+			<li class="feature-item">
+				<h3>Стильно</h3>
+				<p>Если вы давно ищите бесподобныe лампы и светильники, то вы в правильном месте. Вся наша продукция идеально подходит для пространств в стиле лофт, будь то квартира, отель, ресторан, кафе или свободное пространство</p>
+				</li>
+				<li class="feature-item">
+					<h3>Бюджетно<h3>
+						<p>>Мы отличаемся не только дизайном, но и ценами. Не надо тратить много денег,чтобы ваше пространство стало ярче</p>
+				</li>
+				<li class="feature-item">
+				<h3>По всему миру</h3>
+				<p>Мы готовы прислать наш товар в любую точку мира</p>
+			</li>
+		</ul>
+	</section>
+	<section class="news">
+		<h2>Новости</h2>
+		<ul class="news-list">
+			<li class="news-item">
+				<p>Готовы порадовать уже полюбившейся всем люстрой "Паук" по очень привлекательной цене</p>
+				<time datetime="2017-08-18">18 августа</time>
+			</li>
+			<li class="news-item">
+				<p>Ретро гирлянды всегда в моде. Успей купить.</p>
+				<time datetime="2017-08-19">19 августа</time>
+			</li>
+			
+		</ul>
+		<a class="button" href="news.html">Все новости</a>
+	</section>
+	<section class="gallery">
+		<h2>Фотогалерея</h2>
+		<figure class="gallery-content">
+			<a href=#><img src="img/studio.jpg" width="286" height="164" alt="Интерьер"></a>
+		</figure>
+		<span class="button gallery-button gallery-button-back">Назад</span>
+		<span class="button gallery-button gallery-button-next">Вперед</span>
+	</section>
+	<section class contacts>
+		<h2>Контактная информация</h2>
+	</p>
+	<p>
+		Время работы<br>
+		пн-пт: c 10:00 до 22:00<br>
+		сб-вс: c 10:00 до 19:00
+	</p>
+	<a class="button contacts-button" href="map.html">Как проехать</a>
+	<a class="button contacts-button" href="contacts.html">Обратная связь</a>
+</section>
+</main>
+<footer class="main-footer">
+	<p class="footer-contacts">
+		Магазин света<br>
+		Адрес: г.Одинцово, ул.Можайское шоссе д.32<br>
+		<a href="map.html">Как нас найти</a><br>
+		Телефон:+7(925)5674532
+	</p>
+	<div class="footer-social">
+		<b>Давайте дружить</b>
+		<ul>
+			<li><a class="social-button" href="#">Вконтакте</a></li>
+			<li><a class="social-button" href="#">Фейсбук/a></li>
+			<li><a class="social-button" href="#">Инстаграм</a></li>
+		</ul>
+	</div>
+	<p class="footer-copyright">
+		<b>Разработано</b>
+		<a class="button" href="https://htmlacademy.ru">HTML Academy</a>
+		<p>
+		</footer>
+		
+		<section class="modal modal-login">
+			<h2>Личный кабинет</h2>
+			<p>Введите свой логин и пароль</p>
+			<form class="login-form" action="https://echo.htmlacademy.ru" method="post">
+				<p>
+			<input class="login-icon-password" type="password" name="password" placeholder="Пароль">
+		</p>
+		<p class="login-password-info">
+			<input type="checkbox" name="remember" class="visually-hidden">
+			Запомните меня
+			<a class="restore" href="#">Я забыл пароль!</a>
+		</p>
+		<button class="button" type="submit">Войти</button>
+	</form>
+	<span class="modal-close">x</span>
+</section>
+<section class="modal modal-map">
+	<h2 class="visually-hidden">Как до нас добраться</h2>
+	<span class="modal-close">x</span>
+</section>
+</body>
 </html>
+
